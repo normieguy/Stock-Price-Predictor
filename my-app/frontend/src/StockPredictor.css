@@ -1,0 +1,100 @@
+.app {
+  background: #020617;
+  min-height: 100vh;
+  color: #e2e8f0;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.search-box {
+  display: flex;
+  background: #0f172a;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #1e293b;
+}
+
+.search-box input {
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: white;
+  outline: none;
+}
+
+.search-box button {
+  background: #22c55e;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #0f172a;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+}
+
+.chart {
+  height: 420px;
+}
+
+.sidebar h2 {
+  margin-bottom: 15px;
+}
+
+.signal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.buy {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.sell {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.stats {
+  margin-top: 15px;
+  line-height: 1.8;
+}
+
+.reason {
+  margin-top: 20px;
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.loading {
+  opacity: 0.6;
+}
